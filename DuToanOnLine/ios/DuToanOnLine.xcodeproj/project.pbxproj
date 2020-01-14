@@ -16,10 +16,10 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* DuToanOnLineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DuToanOnLineTests.m */; };
-		9C6AE57A2A356D7A220E7C38 /* libPods-DuToanOnLine-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF5A927E26B9AFA6C8C9BB04 /* libPods-DuToanOnLine-tvOSTests.a */; };
-		9F6FEA5C159D81B5DEECC634 /* libPods-DuToanOnLine-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9212F677CFB7590FB4A812F5 /* libPods-DuToanOnLine-tvOS.a */; };
-		A0E70BEA717307BFD80F6200 /* libPods-DuToanOnLineTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FF7D26F76E274511981DD5 /* libPods-DuToanOnLineTests.a */; };
-		D256E5FE45FE6F4F3F911D08 /* libPods-DuToanOnLine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BC3AFA135783995C4C2FDC /* libPods-DuToanOnLine.a */; };
+		3340DA55588778C02E231155 /* libPods-DuToanOnLine-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4523104C618BBE1690C462 /* libPods-DuToanOnLine-tvOSTests.a */; };
+		432046E21AC0B19D71268A8A /* libPods-DuToanOnLineTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A765FB1B5919C9407D90FC7F /* libPods-DuToanOnLineTests.a */; };
+		604B72DF35A0194DE324FCD0 /* libPods-DuToanOnLine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF0D3BCD0FFE9584144BAA7 /* libPods-DuToanOnLine.a */; };
+		E71032BC7F39A19FD3BEF7BB /* libPods-DuToanOnLine-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9810C3C0974048A3E578C5C /* libPods-DuToanOnLine-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,6 @@
 		00E356EE1AD99517003FC87E /* DuToanOnLineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuToanOnLineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* DuToanOnLineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuToanOnLineTests.m; sourceTree = "<group>"; };
-		07BC3AFA135783995C4C2FDC /* libPods-DuToanOnLine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DuToanOnLine.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* DuToanOnLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuToanOnLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DuToanOnLine/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = DuToanOnLine/AppDelegate.m; sourceTree = "<group>"; };
@@ -52,21 +51,22 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DuToanOnLine/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DuToanOnLine/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DuToanOnLine/main.m; sourceTree = "<group>"; };
-		1F96ED2E060513B853E2573D /* Pods-DuToanOnLineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuToanOnLineTests.debug.xcconfig"; path = "Target Support Files/Pods-DuToanOnLineTests/Pods-DuToanOnLineTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* DuToanOnLine-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DuToanOnLine-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* DuToanOnLine-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DuToanOnLine-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		60DB5694E12C3FBD0F0EB95F /* Pods-DuToanOnLine-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuToanOnLine-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-DuToanOnLine-tvOS/Pods-DuToanOnLine-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		67FF7D26F76E274511981DD5 /* libPods-DuToanOnLineTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DuToanOnLineTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9212F677CFB7590FB4A812F5 /* libPods-DuToanOnLine-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DuToanOnLine-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD92623CBD6AA04D8E89A566 /* Pods-DuToanOnLine-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuToanOnLine-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-DuToanOnLine-tvOSTests/Pods-DuToanOnLine-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		CF5A927E26B9AFA6C8C9BB04 /* libPods-DuToanOnLine-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DuToanOnLine-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0647C8808B2C7DD634B6EB7 /* Pods-DuToanOnLine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuToanOnLine.release.xcconfig"; path = "Target Support Files/Pods-DuToanOnLine/Pods-DuToanOnLine.release.xcconfig"; sourceTree = "<group>"; };
-		E7C76505CB0E145FC4C6EBC9 /* Pods-DuToanOnLine-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuToanOnLine-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-DuToanOnLine-tvOSTests/Pods-DuToanOnLine-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		EB46D121DA691E941455F9B6 /* Pods-DuToanOnLine-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuToanOnLine-tvOS.release.xcconfig"; path = "Target Support Files/Pods-DuToanOnLine-tvOS/Pods-DuToanOnLine-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		411ADAB088A123ABE035DD0F /* Pods-DuToanOnLine-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuToanOnLine-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-DuToanOnLine-tvOS/Pods-DuToanOnLine-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		583532228D1F5DC773CCB7FD /* Pods-DuToanOnLine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuToanOnLine.debug.xcconfig"; path = "Target Support Files/Pods-DuToanOnLine/Pods-DuToanOnLine.debug.xcconfig"; sourceTree = "<group>"; };
+		5F9A0D2E7219B0FB6FBFED63 /* Pods-DuToanOnLine-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuToanOnLine-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-DuToanOnLine-tvOSTests/Pods-DuToanOnLine-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8EF0D3BCD0FFE9584144BAA7 /* libPods-DuToanOnLine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DuToanOnLine.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B08DD4320CA356811101C3 /* Pods-DuToanOnLine-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuToanOnLine-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-DuToanOnLine-tvOSTests/Pods-DuToanOnLine-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		A67F0A05362DBAA25327D00F /* Pods-DuToanOnLine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuToanOnLine.release.xcconfig"; path = "Target Support Files/Pods-DuToanOnLine/Pods-DuToanOnLine.release.xcconfig"; sourceTree = "<group>"; };
+		A765FB1B5919C9407D90FC7F /* libPods-DuToanOnLineTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DuToanOnLineTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9810C3C0974048A3E578C5C /* libPods-DuToanOnLine-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DuToanOnLine-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD19572B96AE027453C98B4 /* Pods-DuToanOnLineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuToanOnLineTests.release.xcconfig"; path = "Target Support Files/Pods-DuToanOnLineTests/Pods-DuToanOnLineTests.release.xcconfig"; sourceTree = "<group>"; };
+		DF4523104C618BBE1690C462 /* libPods-DuToanOnLine-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DuToanOnLine-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F943025E054302AB44A633A5 /* Pods-DuToanOnLineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuToanOnLineTests.release.xcconfig"; path = "Target Support Files/Pods-DuToanOnLineTests/Pods-DuToanOnLineTests.release.xcconfig"; sourceTree = "<group>"; };
-		FB3050B5FB44304B7A7D5182 /* Pods-DuToanOnLine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuToanOnLine.debug.xcconfig"; path = "Target Support Files/Pods-DuToanOnLine/Pods-DuToanOnLine.debug.xcconfig"; sourceTree = "<group>"; };
+		F51427EF80F05D254A338DC7 /* Pods-DuToanOnLine-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuToanOnLine-tvOS.release.xcconfig"; path = "Target Support Files/Pods-DuToanOnLine-tvOS/Pods-DuToanOnLine-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		FF4E2005BA1A7108D70E4B2E /* Pods-DuToanOnLineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuToanOnLineTests.debug.xcconfig"; path = "Target Support Files/Pods-DuToanOnLineTests/Pods-DuToanOnLineTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0E70BEA717307BFD80F6200 /* libPods-DuToanOnLineTests.a in Frameworks */,
+				432046E21AC0B19D71268A8A /* libPods-DuToanOnLineTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D256E5FE45FE6F4F3F911D08 /* libPods-DuToanOnLine.a in Frameworks */,
+				604B72DF35A0194DE324FCD0 /* libPods-DuToanOnLine.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F6FEA5C159D81B5DEECC634 /* libPods-DuToanOnLine-tvOS.a in Frameworks */,
+				E71032BC7F39A19FD3BEF7BB /* libPods-DuToanOnLine-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C6AE57A2A356D7A220E7C38 /* libPods-DuToanOnLine-tvOSTests.a in Frameworks */,
+				3340DA55588778C02E231155 /* libPods-DuToanOnLine-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,15 +136,31 @@
 			name = DuToanOnLine;
 			sourceTree = "<group>";
 		};
+		2558F068393A326441FA327C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				583532228D1F5DC773CCB7FD /* Pods-DuToanOnLine.debug.xcconfig */,
+				A67F0A05362DBAA25327D00F /* Pods-DuToanOnLine.release.xcconfig */,
+				411ADAB088A123ABE035DD0F /* Pods-DuToanOnLine-tvOS.debug.xcconfig */,
+				F51427EF80F05D254A338DC7 /* Pods-DuToanOnLine-tvOS.release.xcconfig */,
+				5F9A0D2E7219B0FB6FBFED63 /* Pods-DuToanOnLine-tvOSTests.debug.xcconfig */,
+				98B08DD4320CA356811101C3 /* Pods-DuToanOnLine-tvOSTests.release.xcconfig */,
+				FF4E2005BA1A7108D70E4B2E /* Pods-DuToanOnLineTests.debug.xcconfig */,
+				CCD19572B96AE027453C98B4 /* Pods-DuToanOnLineTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				07BC3AFA135783995C4C2FDC /* libPods-DuToanOnLine.a */,
-				9212F677CFB7590FB4A812F5 /* libPods-DuToanOnLine-tvOS.a */,
-				CF5A927E26B9AFA6C8C9BB04 /* libPods-DuToanOnLine-tvOSTests.a */,
-				67FF7D26F76E274511981DD5 /* libPods-DuToanOnLineTests.a */,
+				8EF0D3BCD0FFE9584144BAA7 /* libPods-DuToanOnLine.a */,
+				B9810C3C0974048A3E578C5C /* libPods-DuToanOnLine-tvOS.a */,
+				DF4523104C618BBE1690C462 /* libPods-DuToanOnLine-tvOSTests.a */,
+				A765FB1B5919C9407D90FC7F /* libPods-DuToanOnLineTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -164,7 +180,7 @@
 				00E356EF1AD99517003FC87E /* DuToanOnLineTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				C039A83C59FFC0978C720112 /* Pods */,
+				2558F068393A326441FA327C /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -182,22 +198,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C039A83C59FFC0978C720112 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FB3050B5FB44304B7A7D5182 /* Pods-DuToanOnLine.debug.xcconfig */,
-				E0647C8808B2C7DD634B6EB7 /* Pods-DuToanOnLine.release.xcconfig */,
-				60DB5694E12C3FBD0F0EB95F /* Pods-DuToanOnLine-tvOS.debug.xcconfig */,
-				EB46D121DA691E941455F9B6 /* Pods-DuToanOnLine-tvOS.release.xcconfig */,
-				E7C76505CB0E145FC4C6EBC9 /* Pods-DuToanOnLine-tvOSTests.debug.xcconfig */,
-				BD92623CBD6AA04D8E89A566 /* Pods-DuToanOnLine-tvOSTests.release.xcconfig */,
-				1F96ED2E060513B853E2573D /* Pods-DuToanOnLineTests.debug.xcconfig */,
-				F943025E054302AB44A633A5 /* Pods-DuToanOnLineTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -205,7 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DuToanOnLineTests" */;
 			buildPhases = (
-				07B2424AD2E2917C5D8F2247 /* [CP] Check Pods Manifest.lock */,
+				4A83073DC2BA7F7C32A2E0C1 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -224,12 +224,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DuToanOnLine" */;
 			buildPhases = (
-				F50AFD627B0092472BDE9CF9 /* [CP] Check Pods Manifest.lock */,
+				FC7681C57DF3ACDBFE2AA2CB /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				A45723319E7657515E04A7B1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,7 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "DuToanOnLine-tvOS" */;
 			buildPhases = (
-				8AEC134FB78E74405E3BDA08 /* [CP] Check Pods Manifest.lock */,
+				FFAA42905CBBF5671CF6A67E /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -264,7 +265,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "DuToanOnLine-tvOSTests" */;
 			buildPhases = (
-				5844EB507DD5F598917D55EE /* [CP] Check Pods Manifest.lock */,
+				A7B4CA15921AD4D6C3D5827E /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -373,7 +374,21 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		07B2424AD2E2917C5D8F2247 /* [CP] Check Pods Manifest.lock */ = {
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		4A83073DC2BA7F7C32A2E0C1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -395,21 +410,25 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+		A45723319E7657515E04A7B1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DuToanOnLine/Pods-DuToanOnLine-resources.sh",
+				"${PODS_ROOT}/YoutubePlayer-in-WKWebView/WKYTPlayerView/WKYTPlayerView.bundle",
 			);
-			name = "Bundle React Native Code And Images";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WKYTPlayerView.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DuToanOnLine/Pods-DuToanOnLine-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
-		5844EB507DD5F598917D55EE /* [CP] Check Pods Manifest.lock */ = {
+		A7B4CA15921AD4D6C3D5827E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -431,29 +450,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8AEC134FB78E74405E3BDA08 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DuToanOnLine-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F50AFD627B0092472BDE9CF9 /* [CP] Check Pods Manifest.lock */ = {
+		FC7681C57DF3ACDBFE2AA2CB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -511,6 +508,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FFAA42905CBBF5671CF6A67E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DuToanOnLine-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -580,7 +599,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F96ED2E060513B853E2573D /* Pods-DuToanOnLineTests.debug.xcconfig */;
+			baseConfigurationReference = FF4E2005BA1A7108D70E4B2E /* Pods-DuToanOnLineTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -603,7 +622,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F943025E054302AB44A633A5 /* Pods-DuToanOnLineTests.release.xcconfig */;
+			baseConfigurationReference = CCD19572B96AE027453C98B4 /* Pods-DuToanOnLineTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -623,7 +642,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB3050B5FB44304B7A7D5182 /* Pods-DuToanOnLine.debug.xcconfig */;
+			baseConfigurationReference = 583532228D1F5DC773CCB7FD /* Pods-DuToanOnLine.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -643,7 +662,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0647C8808B2C7DD634B6EB7 /* Pods-DuToanOnLine.release.xcconfig */;
+			baseConfigurationReference = A67F0A05362DBAA25327D00F /* Pods-DuToanOnLine.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -662,7 +681,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60DB5694E12C3FBD0F0EB95F /* Pods-DuToanOnLine-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 411ADAB088A123ABE035DD0F /* Pods-DuToanOnLine-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -690,7 +709,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB46D121DA691E941455F9B6 /* Pods-DuToanOnLine-tvOS.release.xcconfig */;
+			baseConfigurationReference = F51427EF80F05D254A338DC7 /* Pods-DuToanOnLine-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -718,7 +737,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7C76505CB0E145FC4C6EBC9 /* Pods-DuToanOnLine-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 5F9A0D2E7219B0FB6FBFED63 /* Pods-DuToanOnLine-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -745,7 +764,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD92623CBD6AA04D8E89A566 /* Pods-DuToanOnLine-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 98B08DD4320CA356811101C3 /* Pods-DuToanOnLine-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
